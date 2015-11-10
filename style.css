@@ -15,9 +15,13 @@
   display: none;
 }
 
+#menu > ul#nav li a:hover {
+  background-color: black;
+  color: white;
+}
+
 #menu ul#nav li:hover > ul {
+  border: 1px solid black;
   display: block;
-  width: 920px;
-  height: 45px;
   position: absolute;
 }
