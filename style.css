@@ -1,0 +1,23 @@
+#menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  list-style-type: none;
+}
+
+#menu > ul#nav > li {
+  display: inline-block;
+}
+
+#menu > ul#nav ul {
+  display: none;
+}
+
+#menu ul#nav li:hover > ul {
+  display: block;
+  width: 920px;
+  height: 45px;
+  position: absolute;
+}
